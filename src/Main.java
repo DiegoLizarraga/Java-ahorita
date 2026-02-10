@@ -13,10 +13,34 @@ public class Main {
         System.out.println(media);
         //pues es como c++ esto de los comentarios.
         String sinopsis = """
-               pura pelicula ranchera 
-               aguas que balacean personas en la peli
-               nose que mas decir
+                pura pelicula ranchera 
+                aguas que balacean personas en la peli
+                nose que mas decir
                 """ + fechaDeLanzamiento;
         System.out.println(sinopsis);
+
+        int clasificacion = (int) (media / 2);
+
+        System.out.println(clasificacion);
+
+
+
+
+    /*
+        // Variable en Celsius
+        double celsius = 25.0;
+
+        // Conversión a Fahrenheit usando la fórmula
+        double fahrenheit = (celsius * 1.8) + 32;
+
+        // Mostrar resultado con decimales
+        System.out.println(celsius + " grados Celsius son " + fahrenheit + " grados Fahrenheit.");
+
+        // Casting a entero para quitar decimales
+        int fahrenheitEntero = (int) fahrenheit;
+
+        // Mostrar resultado sin decimales
+        System.out.println("Temperatura en Fahrenheit (sin decimales): " + fahrenheitEntero);
+    */
     }
 }
